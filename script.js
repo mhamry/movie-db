@@ -31,14 +31,12 @@ $(".search-button").on("click", function () {
             const movieDetail = `
             <div class="container-fluid"> 
               <div class="row">
-                <div class="col-6 col-md-3">
+                <div class="col-md-3">
                   <img src="${m.Poster}" class="img-fluid" />
                 </div>
 
-                </div>
-
-                <div class="row">
-                <div class="col-6 col-md">
+               
+                <div class="col-md">
                   <ul class="list-group">
                     <li class="list-group-item"><h4>${m.Title} (${m.Year})</h4></li>
                     <li class="list-group-item"><strong>Director :</strong>${m.Director}</li>
